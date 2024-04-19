@@ -34,9 +34,9 @@ Use the PostgreSQL command-line tool (psql) or a database management tool like p
 
 Once connected to your PostgreSQL database, import the database dump using the following command:
 
-psql -U <username> -d <database_name> -f dump.sql
+psql -U username -d <database_name> -f dump.sql
 
-Replace <username> with your PostgreSQL username and <database_name> with the name of the database where you want to import the data.
+Replace username with your PostgreSQL username and <database_name> with the name of the database where you want to import the data.
 
 ### 6. Enter Password (If Required)
 
